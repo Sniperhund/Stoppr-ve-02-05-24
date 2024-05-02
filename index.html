@@ -39,11 +39,17 @@
                     </span>
 
                     <form>
-                        <input type="text" placeholder="Name" />
+                        <input
+                            type="text"
+                            placeholder="Name"
+                            minlength="3"
+                            maxlength="16"
+                        />
                         <input type="email" placeholder="Email Address" />
                         <textarea
                             placeholder="Write your message here"
                             rows="3"
+                            minlength="5"
                         ></textarea>
 
                         <button class="btn" id="popup-btn">Send</button>
